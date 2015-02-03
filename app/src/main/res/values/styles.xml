@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="CustomActionBarTheme" parent="@style/Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/WhiteActionBar</item>
+        <item name="actionBarStyle">@style/WhiteActionBar</item>
+    </style>
+
+    <style name="WhiteActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:background">@color/white</item>
+        <item name="background">@color/white</item>
+        <item name="android:drawableBottom">@color/actionbar_title_color</item>
+        <item name="android:textSize">@dimen/actionbar_text_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
